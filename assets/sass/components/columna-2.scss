@@ -1,0 +1,36 @@
+body {
+    main {
+        .columna-2 {
+            background: linear-gradient(to top, #FFFFFF 0%, #E4E4E4 100%);
+            .items {
+                margin-right: 0;
+                margin-left: 0;
+                margin-top: 90px;
+                margin-bottom: 90px;
+                .item-1 {
+                    @include breakpoint(phone) {
+                        text-align: center;
+                    }
+                    @include breakpoint(tablet) {
+                        text-align: center;
+                    }
+                    @include breakpoint(desktop) {
+                        text-align: right;
+                    }
+                }
+                .item-2 {
+                    @include breakpoint(phone) {
+                        margin-top: 24px;
+                        margin-left: 0%;
+                    }
+                    text-align: center;
+                    margin-left: -14%;
+                    color: #004D88;
+                    h2 {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

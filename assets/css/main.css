@@ -1,0 +1,612 @@
+html body {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  color: #5FACFF; }
+
+body header .logo-contact {
+  text-align: center; }
+  @media (min-width: 1025px) {
+    body header .logo-contact {
+      text-align: left;
+      width: 85%;
+      margin-left: 7%; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body header .logo-contact {
+      text-align: left;
+      width: 85%;
+      margin-left: 7%; } }
+  body header .logo-contact .row {
+    margin-right: 0; }
+    body header .logo-contact .row .col-sm-6 .logo {
+      margin-top: 20px; }
+    @media (max-width: 667px) {
+      body header .logo-contact .row .col-sm-6 .contact {
+        margin-bottom: 15px; } }
+    @media (min-width: 1025px) {
+      body header .logo-contact .row .col-sm-6 .contact {
+        text-align: right; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body header .logo-contact .row .col-sm-6 .contact {
+        text-align: right; } }
+    body header .logo-contact .row .col-sm-6 .contact i {
+      float: left;
+      font-size: 49px;
+      margin-top: 24px;
+      color: #6B6D71; }
+      @media (max-width: 667px) {
+        body header .logo-contact .row .col-sm-6 .contact i {
+          float: none;
+          margin-left: 0;
+          margin-bottom: 15px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .logo-contact .row .col-sm-6 .contact i {
+          margin-left: 38%; } }
+      @media (min-width: 1025px) {
+        body header .logo-contact .row .col-sm-6 .contact i {
+          margin-left: 55%; } }
+    body header .logo-contact .row .col-sm-6 .contact p {
+      font-size: 32px;
+      font-weight: 300;
+      margin: 0;
+      font-weight: bold; }
+
+body footer {
+  background-color: #05283C; }
+  body footer .row {
+    margin-right: 0; }
+    body footer .row .col-sm-8 ul {
+      margin-top: 37px; }
+      @media (min-width: 1025px) {
+        body footer .row .col-sm-8 ul {
+          margin-left: 9%;
+          margin-top: 40px; } }
+      body footer .row .col-sm-8 ul li {
+        list-style: none;
+        color: #CCCCCC;
+        font-size: 13px;
+        margin-top: 5px; }
+        @media (min-width: 1025px) {
+          body footer .row .col-sm-8 ul li {
+            font-size: 22px;
+            margin-top: 0; } }
+        body footer .row .col-sm-8 ul li i {
+          color: #FFFFFF;
+          width: 8%; }
+          @media (min-width: 1025px) {
+            body footer .row .col-sm-8 ul li i {
+              width: 5%;
+              letter-spacing: 16px; } }
+    body footer .row .logo {
+      text-align: center;
+      margin-top: 11px;
+      margin-bottom: 23px; }
+      @media (min-width: 1025px) {
+        body footer .row .logo {
+          margin-top: 40px;
+          margin-bottom: 40px; } }
+
+body header .lineas-img {
+  position: absolute;
+  z-index: 1;
+  width: 100%; }
+  @media (max-width: 667px) {
+    body header .lineas-img {
+      display: none; } }
+  body header .lineas-img .img-arriba {
+    margin-top: 26px; }
+
+@media (max-width: 667px) {
+  body header .lineas-img-2 {
+    display: none; } }
+
+body header .lineas-img-2 .img-abajo {
+  position: absolute;
+  text-align: right;
+  margin-top: -107px;
+  width: 100%; }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body header .lineas-img-2 .img-abajo {
+      margin-top: -111px; } }
+
+body header .slide {
+  background: linear-gradient(to right, #5FACFF 0%, #4E769A 100%); }
+  @media (max-width: 667px) {
+    body header .slide {
+      height: 650px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body header .slide {
+      height: 416px; } }
+  body header .slide .cover-page .img {
+    text-align: right; }
+    @media (max-width: 667px) {
+      body header .slide .cover-page .img {
+        text-align: center; } }
+    body header .slide .cover-page .img img {
+      margin-top: 31px; }
+      @media (max-width: 667px) {
+        body header .slide .cover-page .img img {
+          width: 35%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .slide .cover-page .img img {
+          width: 48%;
+          margin-top: 88px; } }
+      @media (min-width: 1025px) {
+        body header .slide .cover-page .img img {
+          width: 58%; } }
+      @media screen and (min-width: 1900px) {
+        body header .slide .cover-page .img img {
+          width: 38%; } }
+  body header .slide .title {
+    color: #FFFFFF; }
+    @media (max-width: 667px) {
+      body header .slide .title {
+        margin-left: 8%; } }
+    @media (max-width: 667px) {
+      body header .slide .title h1 {
+        font-size: 50px;
+        margin-top: 30px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body header .slide .title h1 {
+        font-size: 51px;
+        margin-top: 100px; } }
+    @media (min-width: 1025px) {
+      body header .slide .title h1 {
+        font-size: 61px;
+        margin-top: 96px; } }
+    @media (min-width: 1025px) {
+      body header .slide .title ul {
+        font-size: 25px; } }
+    body header .slide .title button {
+      background-color: #FF6700;
+      color: #FFFFFF;
+      border-radius: 30px;
+      height: 49px;
+      width: 80%;
+      border: 0;
+      cursor: pointer;
+      transition: 1s;
+      font-style: italic;
+      font-weight: bold;
+      box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75); }
+      @media (max-width: 667px) {
+        body header .slide .title button {
+          font-size: 17px;
+          width: 90%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .slide .title button {
+          font-size: 26px;
+          width: 72%; } }
+      @media (min-width: 1025px) {
+        body header .slide .title button {
+          font-size: 37px;
+          height: 60px; } }
+      @media screen and (min-width: 1900px) {
+        body header .slide .title button {
+          width: 60%; } }
+    body header .slide .title button:hover {
+      background-color: #FFFFFF;
+      color: #FF6700;
+      border: solid 1px #FF6700; }
+
+body main .columna {
+  height: 160px;
+  text-align: center;
+  border-bottom: solid 2px #5FACFF; }
+  body main .columna p {
+    margin: 0; }
+    @media (max-width: 667px) {
+      body main .columna p {
+        font-size: 30px;
+        margin-top: 35px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .columna p {
+        font-size: 30px;
+        line-height: 3.3; } }
+    @media (min-width: 1025px) {
+      body main .columna p {
+        font-size: 35px;
+        line-height: 3.2; } }
+
+body main .columna-2 {
+  background: linear-gradient(to top, #FFFFFF 0%, #E4E4E4 100%); }
+  body main .columna-2 .items {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 90px;
+    margin-bottom: 90px; }
+    @media (max-width: 667px) {
+      body main .columna-2 .items .item-1 {
+        text-align: center; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .columna-2 .items .item-1 {
+        text-align: center; } }
+    @media (min-width: 1025px) {
+      body main .columna-2 .items .item-1 {
+        text-align: right; } }
+    body main .columna-2 .items .item-2 {
+      text-align: center;
+      margin-left: -14%;
+      color: #004D88; }
+      @media (max-width: 667px) {
+        body main .columna-2 .items .item-2 {
+          margin-top: 24px;
+          margin-left: 0%; } }
+      body main .columna-2 .items .item-2 h2 {
+        font-weight: bold; }
+
+body main .slider-testimonio {
+  background: linear-gradient(to top, #EBEBEB 0%, #78D1DF 100%); }
+  @media (max-width: 667px) {
+    body main .slider-testimonio {
+      height: 500px; } }
+  body main .slider-testimonio .testimonials .title-testimonio {
+    margin-left: 10%;
+    margin-top: 179px; }
+    @media (max-width: 667px) {
+      body main .slider-testimonio .testimonials .title-testimonio {
+        margin-top: 80px;
+        margin-left: 8%; } }
+    body main .slider-testimonio .testimonials .title-testimonio h2 {
+      font-weight: bold; }
+    @media (max-width: 667px) {
+      body main .slider-testimonio .testimonials .title-testimonio h2,
+      body main .slider-testimonio .testimonials .title-testimonio h3 {
+        font-size: 29px;
+        margin-left: 3%; } }
+    body main .slider-testimonio .testimonials .title-testimonio .comilla {
+      font-size: 190px;
+      height: 126px;
+      margin-top: -62px; }
+    body main .slider-testimonio .testimonials .title-testimonio .testimonio {
+      margin-left: 4%;
+      width: 36%;
+      font-weight: bold; }
+      @media (max-width: 667px) {
+        body main .slider-testimonio .testimonials .title-testimonio .testimonio {
+          width: 84%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .slider-testimonio .testimonials .title-testimonio .testimonio {
+          font-size: 18px; } }
+      @media (min-width: 1025px) {
+        body main .slider-testimonio .testimonials .title-testimonio .testimonio {
+          font-size: 18px; } }
+    body main .slider-testimonio .testimonials .title-testimonio img {
+      margin-left: 23%; }
+      @media (max-width: 667px) {
+        body main .slider-testimonio .testimonials .title-testimonio img {
+          display: none; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .slider-testimonio .testimonials .title-testimonio img {
+          margin-top: -200px;
+          width: 67%; } }
+      @media (min-width: 1025px) {
+        body main .slider-testimonio .testimonials .title-testimonio img {
+          margin-top: -274px;
+          width: 67%; } }
+
+body main .cards {
+  text-align: center;
+  background-image: url("../../assets/images/Fondo-Enfermeras.png");
+  background-size: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 12%; }
+  body main .cards h3 {
+    font-size: 32px;
+    color: #05283C;
+    margin-top: 258px;
+    font-weight: bold; }
+  body main .cards .group-1 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 100px; }
+    body main .cards .group-1 .card-1,
+    body main .cards .group-1 .card-2,
+    body main .cards .group-1 .card-3 {
+      background-color: #FFFFFF;
+      border: solid 2px #78D1DF;
+      border-radius: 27px;
+      height: 266px;
+      margin-right: 35px; }
+      @media (max-width: 667px) {
+        body main .cards .group-1 .card-1,
+        body main .cards .group-1 .card-2,
+        body main .cards .group-1 .card-3 {
+          max-width: 100%;
+          margin-right: 9px;
+          margin-bottom: 65px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .cards .group-1 .card-1,
+        body main .cards .group-1 .card-2,
+        body main .cards .group-1 .card-3 {
+          max-width: 28%; } }
+      @media (min-width: 1025px) {
+        body main .cards .group-1 .card-1,
+        body main .cards .group-1 .card-2,
+        body main .cards .group-1 .card-3 {
+          max-width: 30%; } }
+    body main .cards .group-1 img {
+      margin-top: 34px;
+      margin-bottom: 19px; }
+  body main .cards .group-2 {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 59px; }
+    body main .cards .group-2 .card-1,
+    body main .cards .group-2 .card-2,
+    body main .cards .group-2 .card-3 {
+      background-color: #FFFFFF;
+      border: solid 2px #78D1DF;
+      border-radius: 27px;
+      height: 266px;
+      margin-right: 35px; }
+      @media (max-width: 667px) {
+        body main .cards .group-2 .card-1,
+        body main .cards .group-2 .card-2,
+        body main .cards .group-2 .card-3 {
+          max-width: 100%;
+          margin-right: 9px;
+          margin-bottom: 65px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .cards .group-2 .card-1,
+        body main .cards .group-2 .card-2,
+        body main .cards .group-2 .card-3 {
+          max-width: 28%; } }
+      @media (min-width: 1025px) {
+        body main .cards .group-2 .card-1,
+        body main .cards .group-2 .card-2,
+        body main .cards .group-2 .card-3 {
+          max-width: 30%; } }
+    body main .cards .group-2 img {
+      margin-top: 34px;
+      margin-bottom: 19px; }
+  body main .cards button {
+    background-color: #FFFFFF;
+    color: #004D88;
+    margin-top: 70px;
+    border: solid 1px #78D1DF;
+    border-radius: 17px;
+    width: 30%;
+    height: 43px;
+    transition: 1s;
+    cursor: pointer; }
+    @media (max-width: 667px) {
+      body main .cards button {
+        width: 100%;
+        height: 56px; } }
+  body main .cards button:hover {
+    background-color: #004D88;
+    color: #FFFFFF; }
+
+body main .whatsapp {
+  text-align: center;
+  background-image: url("../../assets/images/Fondo-Whatsapp.png");
+  color: #05283C;
+  padding-bottom: 10%; }
+  @media (max-width: 667px) {
+    body main .whatsapp {
+      padding-bottom: 14%; } }
+  body main .whatsapp h3 {
+    margin-top: 200px;
+    margin-bottom: 35px; }
+    @media (max-width: 667px) {
+      body main .whatsapp h3 {
+        margin-top: 64px; } }
+  body main .whatsapp img {
+    margin-bottom: 50px;
+    transition: 1s; }
+    @media (max-width: 667px) {
+      body main .whatsapp img {
+        width: 81%; } }
+  body main .whatsapp img:hover {
+    transform: scale(1.2); }
+  body main .whatsapp h3,
+  body main .whatsapp strong {
+    font-size: 32px; }
+    @media (max-width: 667px) {
+      body main .whatsapp h3,
+      body main .whatsapp strong {
+        font-size: 24px; } }
+  body main .whatsapp p {
+    font-size: 27px;
+    margin: 0; }
+
+body main .formulario-final {
+  background-image: url("../../assets/images/Fondo-Formulario-Final.png");
+  background-size: 100%; }
+  body main .formulario-final .title {
+    color: #FFFFFF;
+    font-size: 37px;
+    margin: 0;
+    margin-top: 150px;
+    margin-left: 14%; }
+  body main .formulario-final .form-description {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 7%;
+    padding-left: 7%;
+    padding-top: 8%;
+    padding-bottom: 8%; }
+    @media (max-width: 667px) {
+      body main .formulario-final .form-description {
+        padding-top: 23%;
+        padding-bottom: 44%; } }
+    body main .formulario-final .form-description .description {
+      background-color: #FFFFFF;
+      border-radius: 22px;
+      padding-left: 11%;
+      padding-right: 11%;
+      padding-top: 9%;
+      padding-bottom: 6%; }
+      body main .formulario-final .form-description .description p {
+        color: #666666; }
+        @media (max-width: 667px) {
+          body main .formulario-final .form-description .description p {
+            font-size: 24px; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .formulario-final .form-description .description p {
+            font-size: 32px; } }
+        @media (min-width: 1025px) {
+          body main .formulario-final .form-description .description p {
+            font-size: 37px; } }
+      body main .formulario-final .form-description .description label {
+        color: #00C13A; }
+      body main .formulario-final .form-description .description img {
+        margin-left: 22%;
+        margin-top: 22px; }
+        @media (max-width: 667px) {
+          body main .formulario-final .form-description .description img {
+            display: none; } }
+    @media (max-width: 667px) {
+      body main .formulario-final .form-description .form {
+        margin-top: 30px;
+        padding-right: 0;
+        padding-left: 0; } }
+    body main .formulario-final .form-description .form form {
+      background-color: #FFFFFF;
+      padding-top: 13%;
+      padding-left: 9%;
+      padding-right: 9%;
+      border-radius: 22px;
+      padding-bottom: 25%; }
+      body main .formulario-final .form-description .form form p {
+        font-size: 29px;
+        color: #666666;
+        margin-bottom: 30px; }
+      body main .formulario-final .form-description .form form label {
+        color: #00C13A; }
+      body main .formulario-final .form-description .form form input {
+        border-radius: 30px;
+        margin-bottom: 17px;
+        border-color: #004D94;
+        height: 50px; }
+      body main .formulario-final .form-description .form form .bton {
+        width: 100%;
+        background-color: #00C13A;
+        color: #FFFFFF;
+        height: 50px;
+        transition: 1s;
+        font-size: 25px;
+        border-radius: 70px; }
+      body main .formulario-final .form-description .form form .bton:hover {
+        background-color: #FFFFFF;
+        color: #00C13A;
+        border: solid 1px #00C13A;
+        border-radius: 80px; }
+
+body main .popups .modal .modal-dialog {
+  padding-left: 5%;
+  padding-right: 5%; }
+  @media (max-width: 667px) {
+    body main .popups .modal .modal-dialog {
+      padding-top: 28%; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .popups .modal .modal-dialog {
+      padding-top: 40%; } }
+  @media (min-width: 1025px) {
+    body main .popups .modal .modal-dialog {
+      padding-top: 5%; } }
+  body main .popups .modal .modal-dialog .modal-content {
+    background-color: #00b43a;
+    border-radius: 15px;
+    text-align: center; }
+    body main .popups .modal .modal-dialog .modal-content .close {
+      text-align: right;
+      margin-top: -26px;
+      margin-right: -8%;
+      margin-bottom: 27px; }
+      body main .popups .modal .modal-dialog .modal-content .close span {
+        background-color: #FFFFFF;
+        color: #00b43a;
+        border-radius: 40px;
+        padding-left: 2%;
+        padding-right: 2%; }
+    body main .popups .modal .modal-dialog .modal-content .modal-body .efermera {
+      position: absolute;
+      right: 84%;
+      bottom: 0;
+      width: 64%; }
+      @media (max-width: 667px) {
+        body main .popups .modal .modal-dialog .modal-content .modal-body .efermera {
+          display: none; } }
+    body main .popups .modal .modal-dialog .modal-content .modal-body .cruz {
+      left: 92%;
+      position: absolute;
+      bottom: -7%; }
+      @media (max-width: 667px) {
+        body main .popups .modal .modal-dialog .modal-content .modal-body .cruz {
+          left: 89%;
+          bottom: -5%; } }
+    body main .popups .modal .modal-dialog .modal-content .modal-body p {
+      font-size: 30px;
+      color: #FFFFFF; }
+      @media (max-width: 667px) {
+        body main .popups .modal .modal-dialog .modal-content .modal-body p {
+          font-size: 26px; } }
+    body main .popups .modal .modal-dialog .modal-content .modal-body form {
+      padding-left: 8%;
+      padding-right: 8%;
+      margin-top: 38px; }
+      body main .popups .modal .modal-dialog .modal-content .modal-body form input {
+        background-color: transparent;
+        color: #FFFFFF;
+        border: solid 1px #FFFFFF;
+        border-radius: 23px;
+        height: 50px;
+        margin-bottom: 22px;
+        box-shadow: 10px 10px 21px -8px rgba(0, 0, 0, 0.75); }
+      body main .popups .modal .modal-dialog .modal-content .modal-body form ::placeholder {
+        color: #FFFFFF; }
+    body main .popups .modal .modal-dialog .modal-content .modal-body button {
+      background-color: #004d94;
+      color: #FFFFFF;
+      width: 100%;
+      border-radius: 32px;
+      font-size: 27px;
+      margin-bottom: 23px;
+      transition: 1s; }
+    body main .popups .modal .modal-dialog .modal-content .modal-body button:hover {
+      background-color: #FFFFFF;
+      color: #004d94;
+      border: solid 1px #004d94; }
+
+body main .video-formulario {
+  padding-left: 4%;
+  padding-right: 4%; }
+  body main .video-formulario .v-form {
+    margin-top: 112px; }
+  body main .video-formulario .form {
+    font-size: 29px;
+    margin-top: 26px; }
+    body main .video-formulario .form form {
+      padding-left: 1%;
+      padding-right: 31%; }
+      body main .video-formulario .form form input {
+        margin-bottom: 27px;
+        border-radius: 26px;
+        height: 48px;
+        box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75); }
+      body main .video-formulario .form form ::placeholder {
+        color: #BCBCBC; }
+    body main .video-formulario .form .flecha {
+      text-align: center;
+      -webkit-animation: tiembla 0.5s infinite; }
+      body main .video-formulario .form .flecha i {
+        font-size: 50px; }
+
+@-webkit-keyframes tiembla {
+  40%,
+  60% {
+    transform: translate3d(0px, 10px, 0); } }
+    body main .video-formulario .form .bton {
+      background-color: #5FACFF;
+      color: #FFFFFF;
+      width: 100%;
+      font-style: italic;
+      font-size: 28px;
+      border-radius: 47px;
+      transition: 1s; }
+    body main .video-formulario .form .btn:hover {
+      background-color: #FFFFFF;
+      color: #5FACFF;
+      border-color: #5FACFF; }

@@ -1,0 +1,55 @@
+body {
+    main {
+        .video-formulario {
+            padding-left: 4%;
+            padding-right: 4%;
+            .v-form {
+                margin-top: 112px;
+            }
+            .form {
+                font-size: 29px;
+                margin-top: 26px;
+                form {
+                    padding-left: 1%;
+                    padding-right: 31%;
+                    input {
+                        margin-bottom: 27px;
+                        border-radius: 26px;
+                        height: 48px;
+                        box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75);
+                    }
+                     ::placeholder {
+                        color: #BCBCBC;
+                    }
+                }
+                .flecha {
+                    text-align: center;
+                    -webkit-animation: tiembla 0.5s infinite;
+                    i {
+                        font-size: 50px;
+                    }
+                }
+                @-webkit-keyframes tiembla {
+                    40%,
+                    60% {
+                        transform: translate3d(0px, 10px, 0);
+                    }
+                }
+                .bton {
+                    background-color: #5FACFF;
+                    color: #FFFFFF;
+                    width: 100%;
+                    font-style: italic;
+                    font-size: 28px;
+                    border-radius: 47px;
+                    transition: 1s;
+                }
+                .btn:hover {
+                    background-color: #FFFFFF;
+                    color: #5FACFF;
+                    border-color: #5FACFF;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+body {
+    main {
+        .whatsapp {
+            text-align: center;
+            background-image: url('../../assets/images/Fondo-Whatsapp.png');
+            color: #05283C;
+            padding-bottom: 10%;
+            @include breakpoint(phone) {
+                padding-bottom: 14%;
+            }
+            h3 {
+                margin-top: 200px;
+                margin-bottom: 35px;
+                @include breakpoint(phone) {
+                    margin-top: 64px;
+                }
+            }
+            img {
+                margin-bottom: 50px;
+                transition: 1s;
+                @include breakpoint(phone) {
+                    width: 81%;
+                }
+            }
+            img:hover {
+                transform: scale(1.2);
+            }
+            h3,
+            strong {
+                font-size: 32px;
+                @include breakpoint(phone) {
+                    font-size: 24px;
+                }
+            }
+            p {
+                font-size: 27px;
+                margin: 0;
+            }
+        }
+    }
+}

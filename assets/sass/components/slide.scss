@@ -1,0 +1,95 @@
+body {
+    header {
+        .slide {
+            background: linear-gradient(to right, #5FACFF 0%, #4E769A 100%);
+            @include breakpoint(phone) {
+                height: 650px;
+            }
+            @include breakpoint(tablet) {
+                height: 416px;
+            }
+            .cover-page {
+                .img {
+                    text-align: right;
+                    @include breakpoint(phone) {
+                        text-align: center;
+                    }
+                    img {
+                        margin-top: 31px;
+                        @include breakpoint(phone) {
+                            width: 35%;
+                        }
+                        @include breakpoint(tablet) {
+                            width: 48%;
+                            margin-top: 88px;
+                        }
+                        @include breakpoint(desktop) {
+                            width: 58%;
+                        }
+                        @media screen and (min-width: 1900px) {
+                            width: 38%;
+                        }
+                    }
+                }
+            }
+            .title {
+                color: #FFFFFF;
+                @include breakpoint(phone) {
+                    margin-left: 8%;
+                }
+                h1 {
+                    @include breakpoint(phone) {
+                        font-size: 50px;
+                        margin-top: 30px;
+                    }
+                    @include breakpoint(tablet) {
+                        font-size: 51px;
+                        margin-top: 100px;
+                    }
+                    @include breakpoint(desktop) {
+                        font-size: 61px;
+                        margin-top: 96px;
+                    }
+                }
+                ul {
+                    @include breakpoint(desktop) {
+                        font-size: 25px;
+                    }
+                }
+                button {
+                    background-color: #FF6700;
+                    color: #FFFFFF;
+                    border-radius: 30px;
+                    height: 49px;
+                    width: 80%;
+                    border: 0;
+                    cursor: pointer;
+                    transition: 1s;
+                    font-style: italic;
+                    font-weight: bold;
+                    box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75);
+                    @include breakpoint(phone) {
+                        font-size: 17px;
+                        width: 90%;
+                    }
+                    @include breakpoint(tablet) {
+                        font-size: 26px;
+                        width: 72%;
+                    }
+                    @include breakpoint(desktop) {
+                        font-size: 37px;
+                        height: 60px;
+                    }
+                    @media screen and (min-width: 1900px) {
+                        width: 60%;
+                    }
+                }
+                button:hover {
+                    background-color: #FFFFFF;
+                    color: #FF6700;
+                    border: solid 1px #FF6700;
+                }
+            }
+        }
+    }
+}

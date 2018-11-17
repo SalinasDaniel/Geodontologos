@@ -1,0 +1,29 @@
+body {
+    header {
+        .lineas-img {
+            @include breakpoint(phone) {
+                display: none;
+            }
+            position: absolute;
+            z-index: 1;
+            width: 100%;
+            .img-arriba {
+                margin-top: 26px;
+            }
+        }
+        .lineas-img-2 {
+            @include breakpoint(phone) {
+                display: none;
+            }
+            .img-abajo {
+                position: absolute;
+                text-align: right;
+                margin-top: -107px;
+                width: 100%;
+                @include breakpoint(tablet) {
+                    margin-top: -111px;
+                }
+            }
+        }
+    }
+}

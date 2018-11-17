@@ -1,0 +1,101 @@
+body {
+    main {
+        .formulario-final {
+            background-image: url('../../assets/images/Fondo-Formulario-Final.png');
+            background-size: 100%;
+            .title {
+                color: #FFFFFF;
+                font-size: 37px;
+                margin: 0;
+                margin-top: 150px;
+                margin-left: 14%;
+            }
+            .form-description {
+                margin-right: 0;
+                margin-left: 0;
+                padding-right: 7%;
+                padding-left: 7%;
+                padding-top: 8%;
+                padding-bottom: 8%;
+                @include breakpoint (phone) {
+                    padding-top: 23%;
+                    padding-bottom: 44%;
+                }
+                .description {
+                    background-color: #FFFFFF;
+                    border-radius: 22px;
+                    padding-left: 11%;
+                    padding-right: 11%;
+                    padding-top: 9%;
+                    padding-bottom: 6%;
+                    p {
+                        color: #666666;
+                        @include breakpoint(phone) {
+                            font-size: 24px;
+                        }
+                        @include breakpoint(tablet) {
+                            font-size: 32px;
+                        }
+                        @include breakpoint(desktop) {
+                            font-size: 37px;
+                        }
+                    }
+                    label {
+                        color: #00C13A;
+                    }
+                    img {
+                        margin-left: 22%;
+                        margin-top: 22px;
+                        @include breakpoint(phone) {
+                            display: none;
+                        }
+                    }
+                }
+                .form {
+                    @include breakpoint(phone) {
+                        margin-top: 30px;
+                        padding-right: 0;
+                        padding-left: 0;
+                    }
+                    form {
+                        background-color: #FFFFFF;
+                        padding-top: 13%;
+                        padding-left: 9%;
+                        padding-right: 9%;
+                        border-radius: 22px;
+                        padding-bottom: 25%;
+                        p {
+                            font-size: 29px;
+                            color: #666666;
+                            margin-bottom: 30px;
+                        }
+                        label {
+                            color: #00C13A;
+                        }
+                        input {
+                            border-radius: 30px;
+                            margin-bottom: 17px;
+                            border-color: #004D94;
+                            height: 50px;
+                        }
+                        .bton {
+                            width: 100%;
+                            background-color: #00C13A;
+                            color: #FFFFFF;
+                            height: 50px;
+                            transition: 1s;
+                            font-size: 25px;
+                            border-radius: 70px;
+                        }
+                        .bton:hover {
+                            background-color: #FFFFFF;
+                            color: #00C13A;
+                            border: solid 1px #00C13A;
+                            border-radius: 80px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

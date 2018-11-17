@@ -1,0 +1,97 @@
+body {
+    main {
+        .popups {
+            .modal {
+                .modal-dialog {
+                    padding-left: 5%;
+                    padding-right: 5%;
+                    @include breakpoint(phone) {
+                        padding-top: 28%;
+                    }
+                    @include breakpoint(tablet) {
+                        padding-top: 40%;
+                    }
+                    @include breakpoint(desktop) {
+                        padding-top: 5%;
+                    }
+                    .modal-content {
+                        background-color: #00b43a;
+                        border-radius: 15px;
+                        text-align: center;
+                        .close {
+                            text-align: right;
+                            margin-top: -26px;
+                            margin-right: -8%;
+                            margin-bottom: 27px;
+                            span {
+                                background-color: #FFFFFF;
+                                color: #00b43a;
+                                border-radius: 40px;
+                                padding-left: 2%;
+                                padding-right: 2%
+                            }
+                        }
+                        .modal-body {
+                            .efermera {
+                                position: absolute;
+                                right: 84%;
+                                bottom: 0;
+                                width: 64%;
+                                @include breakpoint(phone) {
+                                    display: none;
+                                }
+                            }
+                            .cruz {
+                                left: 92%;
+                                position: absolute;
+                                bottom: -7%;
+                                @include breakpoint(phone) {
+                                    left: 89%;
+                                    bottom: -5%;
+                                }
+                            }
+                            p {
+                                font-size: 30px;
+                                color: #FFFFFF;
+                                @include breakpoint(phone) {
+                                    font-size: 26px;
+                                }
+                            }
+                            form {
+                                padding-left: 8%;
+                                padding-right: 8%;
+                                margin-top: 38px;
+                                input {
+                                    background-color: transparent;
+                                    color: #FFFFFF;
+                                    border: solid 1px #FFFFFF;
+                                    border-radius: 23px;
+                                    height: 50px;
+                                    margin-bottom: 22px;
+                                    box-shadow: 10px 10px 21px -8px rgba(0, 0, 0, 0.75);
+                                }
+                                 ::placeholder {
+                                    color: #FFFFFF;
+                                }
+                            }
+                            button {
+                                background-color: #004d94;
+                                color: #FFFFFF;
+                                width: 100%;
+                                border-radius: 32px;
+                                font-size: 27px;
+                                margin-bottom: 23px;
+                                transition: 1s;
+                            }
+                            button:hover {
+                                background-color: #FFFFFF;
+                                color: #004d94;
+                                border: solid 1px #004d94;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

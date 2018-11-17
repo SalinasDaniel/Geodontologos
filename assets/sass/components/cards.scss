@@ -1,0 +1,105 @@
+body {
+    main {
+        .cards {
+            text-align: center;
+            background-image: url('../../assets/images/Fondo-Enfermeras.png');
+            background-size: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-bottom: 12%;
+            // @include breakpoint(phone) {
+            //     margin-top: 1133px;
+            // }
+            // @include breakpoint(tablet) {
+            //     padding-bottom: 4%;
+            //     margin-top: 607px;
+            // }
+            // @include breakpoint(desktop) {
+            //     margin-top: 845px;
+            // }
+            h3 {
+                font-size: 32px;
+                color: #05283C;
+                margin-top: 258px;
+                font-weight: bold;
+            }
+            .group-1 {
+                margin-right: 0;
+                margin-left: 0;
+                margin-top: 100px;
+                .card-1,
+                .card-2,
+                .card-3 {
+                    background-color: #FFFFFF;
+                    border: solid 2px #78D1DF;
+                    border-radius: 27px;
+                    height: 266px;
+                    margin-right: 35px;
+                    @include breakpoint(phone) {
+                        max-width: 100%;
+                        margin-right: 9px;
+                        margin-bottom: 65px
+                    }
+                    @include breakpoint(tablet) {
+                        max-width: 28%;
+                    }
+                    @include breakpoint(desktop) {
+                        max-width: 30%;
+                    }
+                }
+                img {
+                    margin-top: 34px;
+                    margin-bottom: 19px;
+                }
+            }
+            .group-2 {
+                margin-right: 0;
+                margin-left: 0;
+                margin-top: 59px;
+                .card-1,
+                .card-2,
+                .card-3 {
+                    background-color: #FFFFFF;
+                    border: solid 2px #78D1DF;
+                    border-radius: 27px;
+                    height: 266px;
+                    margin-right: 35px;
+                    @include breakpoint(phone) {
+                        max-width: 100%;
+                        margin-right: 9px;
+                        margin-bottom: 65px
+                    }
+                    @include breakpoint(tablet) {
+                        max-width: 28%;
+                    }
+                    @include breakpoint(desktop) {
+                        max-width: 30%;
+                    }
+                }
+                img {
+                    margin-top: 34px;
+                    margin-bottom: 19px;
+                }
+            }
+            button {
+                background-color: #FFFFFF;
+                color: #004D88;
+                margin-top: 70px;
+                border: solid 1px #78D1DF;
+                border-radius: 17px;
+                width: 30%;
+                height: 43px;
+                transition: 1s;
+                cursor: pointer;
+                @include breakpoint(phone) {
+                    width: 100%;
+                    height: 56px;
+                }
+            }
+            button:hover {
+                background-color: #004D88;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

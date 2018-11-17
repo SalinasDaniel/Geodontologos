@@ -1,0 +1,24 @@
+body {
+    main {
+        .columna {
+            height: 160px;
+            text-align: center;
+            border-bottom: solid 2px #5FACFF;
+            p {
+                margin: 0;
+                @include breakpoint(phone) {
+                    font-size: 30px;
+                    margin-top: 35px;
+                }
+                @include breakpoint(tablet) {
+                    font-size: 30px;
+                    line-height: 3.3;
+                }
+                @include breakpoint(desktop) {
+                    font-size: 35px;
+                    line-height: 3.2;
+                }
+            }
+        }
+    }
+}
