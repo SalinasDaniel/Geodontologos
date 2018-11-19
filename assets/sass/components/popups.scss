@@ -15,9 +15,10 @@ body {
                         padding-top: 5%;
                     }
                     .modal-content {
-                        background-color: #00b43a;
+                        background-color: #5FACFF;
                         border-radius: 15px;
                         text-align: center;
+                        padding-bottom: 20%;
                         .close {
                             text-align: right;
                             margin-top: -26px;
@@ -25,29 +26,49 @@ body {
                             margin-bottom: 27px;
                             span {
                                 background-color: #FFFFFF;
-                                color: #00b43a;
+                                color: #5FACFF;
                                 border-radius: 40px;
                                 padding-left: 2%;
                                 padding-right: 2%
                             }
                         }
                         .modal-body {
-                            .efermera {
+                            .especialista-1 {
                                 position: absolute;
-                                right: 84%;
-                                bottom: 0;
-                                width: 64%;
+                                right: 63%;
+                                width: 100%;
                                 @include breakpoint(phone) {
-                                    display: none;
+                                    right: 58%;
+                                    top: 189px;
+                                    width: 66%;
+                                }
+                                @include breakpoint(tablet) {
+                                    top: 32px;
+                                }
+                                @include breakpoint(desktop) {
+                                    top: 57px;
+                                }
+                                @media screen and (min-width: 1900px) {
+                                    top: 145px;
                                 }
                             }
-                            .cruz {
-                                left: 92%;
+                            .especialista-2 {
+                                left: 58%;
                                 position: absolute;
-                                bottom: -7%;
+                                width: 100%;
                                 @include breakpoint(phone) {
-                                    left: 89%;
-                                    bottom: -5%;
+                                    left: 55%;
+                                    top: 189px;
+                                    width: 66%;
+                                }
+                                @include breakpoint(tablet) {
+                                    top: 32px;
+                                }
+                                @include breakpoint(desktop) {
+                                    top: 57px;
+                                }
+                                @media screen and (min-width: 1900px) {
+                                    top: 145px;
                                 }
                             }
                             p {
@@ -72,21 +93,26 @@ body {
                                 }
                                  ::placeholder {
                                     color: #FFFFFF;
+                                    font-style: italic;
                                 }
                             }
                             button {
-                                background-color: #004d94;
+                                background-color: #FF6700;
                                 color: #FFFFFF;
-                                width: 100%;
+                                width: 80%;
                                 border-radius: 32px;
                                 font-size: 27px;
                                 margin-bottom: 23px;
                                 transition: 1s;
+                                font-style: italic;
+                                right: 9%;
+                                z-index: 1;
+                                position: absolute;
                             }
                             button:hover {
                                 background-color: #FFFFFF;
-                                color: #004d94;
-                                border: solid 1px #004d94;
+                                color: #FF6700;
+                                border: solid 1px #FF6700;
                             }
                         }
                     }

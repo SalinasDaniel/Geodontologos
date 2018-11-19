@@ -1,12 +1,31 @@
 body {
     main {
+        .lineas-columna-2 {
+            position: absolute;
+            width: 100%;
+            text-align: right;
+            margin-top: -46px;
+            @include breakpoint(phone) {
+                display: none;
+            }
+        }
         .columna-2 {
-            background: linear-gradient(to top, #FFFFFF 0%, #E4E4E4 100%);
+            background: linear-gradient(to right, #5FACFF 0%, #4E769A 100%);
+            color: #FFFFFF;
+            padding-left: 9%;
+            padding-right: 9%;
+            @include breakpoint(tablet) {
+                padding-left: 7%;
+                padding-right: 4%;
+            }
             .items {
                 margin-right: 0;
                 margin-left: 0;
-                margin-top: 90px;
-                margin-bottom: 90px;
+                margin-top: 18px;
+                padding-bottom: 3%;
+                @include breakpoint(phone) {
+                    margin-top: 65px;
+                }
                 .item-1 {
                     @include breakpoint(phone) {
                         text-align: center;
@@ -15,19 +34,69 @@ body {
                         text-align: center;
                     }
                     @include breakpoint(desktop) {
-                        text-align: right;
+                        text-align: left;
+                    }
+                    img {
+                        @include breakpoint(tablet) {
+                            float: left;
+                        }
+                        @include breakpoint(desktop) {
+                            float: left;
+                        }
+                    }
+                    h2 {
+                        margin-left: 22%;
+                        font-size: 41px;
+                        @include breakpoint(phone) {
+                            margin-left: 0;
+                            margin-top: 36px;
+                        }
+                        @include breakpoint(tablet) {
+                            font-size: 32px;
+                        }
+                    }
+                    strong {
+                        font-size: 48px;
+                        @include breakpoint(tablet) {
+                            font-size: 36px;
+                        }
                     }
                 }
                 .item-2 {
                     @include breakpoint(phone) {
-                        margin-top: 24px;
-                        margin-left: 0%;
+                        padding-bottom: 20%;
                     }
-                    text-align: center;
-                    margin-left: -14%;
-                    color: #004D88;
-                    h2 {
-                        font-weight: bold;
+                    button {
+                        background-color: #FF6700;
+                        color: #FFFFFF;
+                        border: solid 1px #FF6700;
+                        border-radius: 50px;
+                        transition: 1s;
+                        cursor: pointer;
+                        margin-top: 34px;
+                        margin-left: 13%;
+                        font-style: italic;
+                        box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75);
+                        @include breakpoint(phone) {
+                            margin-left: 0;
+                            width: 100%;
+                            font-size: 34px;
+                            height: 132px;
+                        }
+                        @include breakpoint(tablet) {
+                            font-size: 24px;
+                            width: 91%;
+                            margin-top: 25px;
+                        }
+                        @include breakpoint(desktop) {
+                            width: 80%;
+                            font-size: 28px;
+                        }
+                    }
+                    button:hover {
+                        background-color: #FFFFFF;
+                        color: #FF6700;
+                        border: solid 1px #FF6700;
                     }
                 }
             }

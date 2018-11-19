@@ -1,0 +1,23 @@
+body {
+    main {
+        .lineas-columna-4 {
+            position: absolute;
+            margin-top: -40px;
+            @include breakpoint(phone) {
+                display: none;
+            }
+        }
+        .columna-4 {
+            background-color: #AFAFAF;
+            text-align: center;
+            img {
+                padding-top: 3%;
+                padding-bottom: 3%;
+                @include breakpoint(phone) {
+                    padding-top: 8%;
+                    padding-bottom: 8%;
+                }
+            }
+        }
+    }
+}

@@ -1,54 +1,86 @@
 body {
     main {
         .video-formulario {
-            padding-left: 4%;
-            padding-right: 4%;
             .v-form {
                 margin-top: 112px;
+                padding-left: 4%;
+                padding-right: 4%;
+                margin-right: 0;
+                margin-left: 0;
+                .video {
+                    iframe {
+                        @include breakpoint(phone) {
+                            width: 320px;
+                            height: 200px;
+                        }
+                        @include breakpoint(tablet) {
+                            width: 579px;
+                            height: 433px;
+                        }
+                        @include breakpoint(desktop) {
+                            width: 770px;
+                            height: 433px;
+                        }
+                    }
+                }
+                .form {
+                    font-size: 29px;
+                    margin-top: 26px;
+                    @include breakpoint(phone) {
+                        text-align: center;
+                    }
+                    form {
+                        padding-left: 1%;
+                        @include breakpoint(phone) {
+                            padding-right: 0;
+                        }
+                        @include breakpoint(tablet) {
+                            padding-right: 6%;
+                        }
+                        @include breakpoint(desktop) {
+                            padding-right: 31%;
+                        }
+                        input {
+                            margin-bottom: 27px;
+                            border-radius: 26px;
+                            height: 48px;
+                            box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75);
+                        }
+                         ::placeholder {
+                            color: #BCBCBC;
+                        }
+                    }
+                    .flecha {
+                        text-align: center;
+                        -webkit-animation: tiembla 0.5s infinite;
+                        i {
+                            font-size: 50px;
+                        }
+                    }
+                    @-webkit-keyframes tiembla {
+                        40%,
+                        60% {
+                            transform: translate3d(0px, 10px, 0);
+                        }
+                    }
+                    .bton {
+                        background-color: #5FACFF;
+                        color: #FFFFFF;
+                        width: 100%;
+                        font-style: italic;
+                        font-size: 28px;
+                        border-radius: 47px;
+                        transition: 1s;
+                    }
+                    .btn:hover {
+                        background-color: #FFFFFF;
+                        color: #5FACFF;
+                        border-color: #5FACFF;
+                    }
+                }
             }
-            .form {
-                font-size: 29px;
-                margin-top: 26px;
-                form {
-                    padding-left: 1%;
-                    padding-right: 31%;
-                    input {
-                        margin-bottom: 27px;
-                        border-radius: 26px;
-                        height: 48px;
-                        box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75);
-                    }
-                     ::placeholder {
-                        color: #BCBCBC;
-                    }
-                }
-                .flecha {
-                    text-align: center;
-                    -webkit-animation: tiembla 0.5s infinite;
-                    i {
-                        font-size: 50px;
-                    }
-                }
-                @-webkit-keyframes tiembla {
-                    40%,
-                    60% {
-                        transform: translate3d(0px, 10px, 0);
-                    }
-                }
-                .bton {
-                    background-color: #5FACFF;
-                    color: #FFFFFF;
-                    width: 100%;
-                    font-style: italic;
-                    font-size: 28px;
-                    border-radius: 47px;
-                    transition: 1s;
-                }
-                .btn:hover {
-                    background-color: #FFFFFF;
-                    color: #5FACFF;
-                    border-color: #5FACFF;
-                }
+            .img {
+                text-align: right;
             }
         }
     }

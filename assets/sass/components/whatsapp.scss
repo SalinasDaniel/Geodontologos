@@ -3,7 +3,6 @@ body {
         .whatsapp {
             text-align: center;
             background-image: url('../../assets/images/Fondo-Whatsapp.png');
-            color: #05283C;
             padding-bottom: 10%;
             @include breakpoint(phone) {
                 padding-bottom: 14%;

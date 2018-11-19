@@ -1,6 +1,6 @@
 body {
     footer {
-        background-color: #05283C;
+        background-color: #FFFFFF;
         .row {
             margin-right: 0;
             .col-sm-8 {
@@ -12,7 +12,6 @@ body {
                     }
                     li {
                         list-style: none;
-                        color: #CCCCCC;
                         font-size: 13px;
                         margin-top: 5px;
                         @include breakpoint(desktop) {
@@ -20,8 +19,8 @@ body {
                             margin-top: 0;
                         }
                         i {
-                            color: #FFFFFF;
                             width: 8%;
+                            color: #6B6D71;
                             @include breakpoint(desktop) {
                                 width: 5%;
                                 letter-spacing: 16px;

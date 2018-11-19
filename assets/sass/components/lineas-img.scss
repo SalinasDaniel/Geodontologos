@@ -18,10 +18,10 @@ body {
             .img-abajo {
                 position: absolute;
                 text-align: right;
-                margin-top: -107px;
+                margin-top: -66px;
                 width: 100%;
                 @include breakpoint(tablet) {
-                    margin-top: -111px;
+                    margin-top: -61px;
                 }
             }
         }
