@@ -97,6 +97,10 @@ body {
                         @include breakpoint(phone) {
                             width: 100%;
                         }
+                        @include breakpoint(tablet) {
+                            margin-left: -55px;
+                            width: 450%;
+                        }
                         @media screen and (min-width: 1900px) {
                             margin-top: -264px;
                         }
@@ -198,6 +202,8 @@ body {
                         }
                         @include breakpoint(tablet) {
                             margin-left: -258%;
+                            width: 450%;
+                            margin-top: -107px;
                         }
                         @include breakpoint(desktop) {
                             margin-left: -144%;

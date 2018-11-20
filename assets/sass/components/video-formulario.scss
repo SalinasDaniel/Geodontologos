@@ -14,8 +14,8 @@ body {
                             height: 200px;
                         }
                         @include breakpoint(tablet) {
-                            width: 579px;
-                            height: 433px;
+                            width: 444px;
+                            height: 468px;
                         }
                         @include breakpoint(desktop) {
                             width: 770px;

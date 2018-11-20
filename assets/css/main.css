@@ -40,7 +40,7 @@ body header .logo-contact {
           margin-bottom: 15px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body header .logo-contact .row .col-sm-6 .contact i {
-          margin-left: 38%; } }
+          margin-left: 13%; } }
       @media (min-width: 1025px) {
         body header .logo-contact .row .col-sm-6 .contact i {
           margin-left: 55%; } }
@@ -150,7 +150,7 @@ body header .slide {
         margin-top: 165px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body header .slide .title h1 {
-        font-size: 51px;
+        font-size: 41px;
         margin-top: 100px; } }
     @media (min-width: 1025px) {
       body header .slide .title h1 {
@@ -307,7 +307,12 @@ body main .slider-testimonio {
   body main .slider-testimonio .description p {
     text-align: center;
     padding-top: 52%;
-    padding-bottom: 5%; }
+    padding-bottom: 8%;
+    font-size: 26px;
+    margin-top: 80px; }
+    @media (max-width: 667px) {
+      body main .slider-testimonio .description p {
+        font-size: 18px; } }
 
 body main .cards {
   text-align: center;
@@ -316,6 +321,10 @@ body main .cards {
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 12%; }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .cards {
+      padding-left: 7%;
+      padding-right: 0%; } }
   body main .cards p {
     font-weight: bold; }
   body main .cards h3 {
@@ -627,8 +636,8 @@ body main .video-formulario .v-form {
       height: 200px; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .video-formulario .v-form .video iframe {
-      width: 579px;
-      height: 433px; } }
+      width: 444px;
+      height: 468px; } }
   @media (min-width: 1025px) {
     body main .video-formulario .v-form .video iframe {
       width: 770px;
@@ -714,6 +723,9 @@ body main .block-services {
     background-color: #FFFFFF;
     border-radius: 130px;
     margin-bottom: 22px; }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .block-services img {
+        width: 100%; } }
   body main .block-services .group-3 {
     padding-left: 5%;
     padding-right: 5%;
@@ -733,19 +745,20 @@ body main .block-services {
       border: solid 1px #FF6700;
       height: 55px;
       margin-top: 17px;
-      width: 100%;
       transition: 1s;
       box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75);
       font-style: italic; }
       @media (max-width: 667px) {
         body main .block-services .group-3 .btn button {
-          font-size: 19px; } }
+          font-size: 19px;
+          width: 100%; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .block-services .group-3 .btn button {
           font-size: 24px; } }
       @media (min-width: 1025px) {
         body main .block-services .group-3 .btn button {
-          font-size: 30px; } }
+          font-size: 30px;
+          width: 100%; } }
     body main .block-services .group-3 .btn button:hover {
       background-color: #FFFFFF;
       color: #FF6700;
@@ -842,6 +855,10 @@ body main .perfiles-profesionales {
       @media (max-width: 667px) {
         body main .perfiles-profesionales .group-1 .img img {
           width: 100%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .perfiles-profesionales .group-1 .img img {
+          margin-left: -55px;
+          width: 450%; } }
       @media screen and (min-width: 1900px) {
         body main .perfiles-profesionales .group-1 .img img {
           margin-top: -264px; } }
@@ -933,7 +950,9 @@ body main .perfiles-profesionales {
           margin-top: -991px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .perfiles-profesionales .group-2 .img img {
-          margin-left: -258%; } }
+          margin-left: -258%;
+          width: 450%;
+          margin-top: -107px; } }
       @media (min-width: 1025px) {
         body main .perfiles-profesionales .group-2 .img img {
           margin-left: -144%; } }
