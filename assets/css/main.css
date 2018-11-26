@@ -557,13 +557,13 @@ body main .popups .modal .modal-dialog {
         padding-right: 2%; }
     body main .popups .modal .modal-dialog .modal-content .modal-body .especialista-1 {
       position: absolute;
-      right: 63%;
-      width: 100%; }
+      right: 77%;
+      width: 66.2%; }
       @media (max-width: 667px) {
         body main .popups .modal .modal-dialog .modal-content .modal-body .especialista-1 {
-          right: 58%;
-          top: 189px;
-          width: 66%; } }
+          right: 71%;
+          top: 214px;
+          width: 38%; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .popups .modal .modal-dialog .modal-content .modal-body .especialista-1 {
           top: 32px; } }
@@ -574,14 +574,14 @@ body main .popups .modal .modal-dialog {
         body main .popups .modal .modal-dialog .modal-content .modal-body .especialista-1 {
           top: 145px; } }
     body main .popups .modal .modal-dialog .modal-content .modal-body .especialista-2 {
-      left: 58%;
+      left: 81%;
       position: absolute;
-      width: 100%; }
+      width: 66.4%; }
       @media (max-width: 667px) {
         body main .popups .modal .modal-dialog .modal-content .modal-body .especialista-2 {
-          left: 55%;
-          top: 189px;
-          width: 66%; } }
+          left: 72%;
+          top: 214px;
+          width: 38%; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .popups .modal .modal-dialog .modal-content .modal-body .especialista-2 {
           top: 32px; } }
