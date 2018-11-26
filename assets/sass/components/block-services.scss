@@ -47,10 +47,15 @@ body {
                 padding-bottom: 15%;
                 .description {
                     p {
-                        font-size: 44px;
                         text-align: left;
                         @include breakpoint(phone) {
                             font-size: 34px;
+                        }
+                        @include breakpoint(tablet) {
+                            font-size: 26px;
+                        }
+                        @include breakpoint(desktop) {
+                            font-size: 44px;
                         }
                     }
                 }

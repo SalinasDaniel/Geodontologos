@@ -19,7 +19,7 @@ body {
                         @include breakpoint(phone) {
                             width: 59%;
                             position: absolute;
-                            top: 196px;
+                            top: 210px;
                             left: 8%;
                         }
                         @include breakpoint(tablet) {
@@ -83,7 +83,8 @@ body {
                     }
                     @include breakpoint(tablet) {
                         font-size: 26px;
-                        width: 72%;
+                        width: 90%;
+                        margin-bottom: 37px;
                     }
                     @include breakpoint(desktop) {
                         font-size: 37px;

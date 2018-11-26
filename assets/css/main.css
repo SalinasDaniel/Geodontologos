@@ -126,7 +126,7 @@ body header .slide {
         body header .slide .cover-page .img img {
           width: 59%;
           position: absolute;
-          top: 196px;
+          top: 210px;
           left: 8%; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body header .slide .cover-page .img img {
@@ -183,7 +183,8 @@ body header .slide {
       @media (min-width: 668px) and (max-width: 1024px) {
         body header .slide .title button {
           font-size: 26px;
-          width: 72%; } }
+          width: 90%;
+          margin-bottom: 37px; } }
       @media (min-width: 1025px) {
         body header .slide .title button {
           font-size: 37px;
@@ -345,13 +346,14 @@ body main .cards {
       background-color: #FFFFFF;
       border: solid 2px #78D1DF;
       border-radius: 27px;
-      height: 266px;
+      height: 319px;
       margin-right: 35px;
       box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75); }
       body main .cards .group-1 .card-1 p,
       body main .cards .group-1 .card-2 p,
       body main .cards .group-1 .card-3 p {
-        margin-top: 34px; }
+        margin-top: 40px;
+        font-size: 25px; }
       @media (max-width: 667px) {
         body main .cards .group-1 .card-1,
         body main .cards .group-1 .card-2,
@@ -382,7 +384,7 @@ body main .cards {
       background-color: #FFFFFF;
       border: solid 2px #78D1DF;
       border-radius: 27px;
-      height: 266px;
+      height: 319px;
       margin-right: 35px;
       box-shadow: 10px 10px 27px -10px rgba(0, 0, 0, 0.75); }
       @media (max-width: 667px) {
@@ -403,9 +405,14 @@ body main .cards {
         body main .cards .group-2 .card-3 {
           max-width: 30%; } }
     body main .cards .group-2 .card-2 p {
-      margin-top: 42px; }
+      margin-top: 51px;
+      font-size: 25px; }
     body main .cards .group-2 .card-3 p {
-      margin-top: 26px; }
+      margin-top: 33px;
+      font-size: 25px; }
+    body main .cards .group-2 .card-1 p {
+      margin-top: 8px;
+      font-size: 25px; }
     body main .cards .group-2 img {
       margin-top: 34px;
       margin-bottom: 19px; }
@@ -737,11 +744,16 @@ body main .block-services {
     margin-top: 130px;
     padding-bottom: 15%; }
     body main .block-services .group-3 .description p {
-      font-size: 44px;
       text-align: left; }
       @media (max-width: 667px) {
         body main .block-services .group-3 .description p {
           font-size: 34px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .block-services .group-3 .description p {
+          font-size: 26px; } }
+      @media (min-width: 1025px) {
+        body main .block-services .group-3 .description p {
+          font-size: 44px; } }
     body main .block-services .group-3 .btn button {
       background-color: #FF6700;
       color: #FFFFFF;
@@ -952,7 +964,7 @@ body main .perfiles-profesionales {
         body main .perfiles-profesionales .group-2 .img img {
           width: 100%;
           margin-left: 0;
-          margin-top: -991px; } }
+          margin-top: -1118px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .perfiles-profesionales .group-2 .img img {
           margin-left: -258%;
@@ -970,6 +982,52 @@ body main .perfiles-profesionales {
     margin-top: 18px; }
   body main .perfiles-profesionales .description p {
     color: #9E9E9E; }
+  body main .perfiles-profesionales .block-description {
+    text-align: center;
+    background-color: #5FACFF;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 66px;
+    margin-top: 50px; }
+    @media (max-width: 667px) {
+      body main .perfiles-profesionales .block-description {
+        width: 94%;
+        margin-left: 3%;
+        padding-top: 11%;
+        padding-bottom: 11%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .perfiles-profesionales .block-description {
+        width: 89%;
+        margin-left: 6%; } }
+    @media (min-width: 1025px) {
+      body main .perfiles-profesionales .block-description {
+        width: 64%;
+        margin-left: 18%; } }
+    body main .perfiles-profesionales .block-description h2,
+    body main .perfiles-profesionales .block-description p {
+      color: #FFFFFF; }
+    body main .perfiles-profesionales .block-description h2 {
+      font-weight: 900;
+      font-style: italic; }
+      @media (max-width: 667px) {
+        body main .perfiles-profesionales .block-description h2 {
+          font-size: 37px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .perfiles-profesionales .block-description h2 {
+          font-size: 44px; } }
+      @media (min-width: 1025px) {
+        body main .perfiles-profesionales .block-description h2 {
+          font-size: 51px; } }
+    @media (max-width: 667px) {
+      body main .perfiles-profesionales .block-description p {
+        font-size: 24px;
+        margin-top: 33px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .perfiles-profesionales .block-description p {
+        font-size: 28px; } }
+    @media (min-width: 1025px) {
+      body main .perfiles-profesionales .block-description p {
+        font-size: 34px; } }
 
 body main .columna-3 {
   background-image: url("../../assets/images/Fondo-Perfiles.png"); }
