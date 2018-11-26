@@ -14,14 +14,14 @@ body {
                     margin-top: 64px;
                 }
             }
-            img {
+            .whast {
                 margin-bottom: 50px;
                 transition: 1s;
                 @include breakpoint(phone) {
                     width: 81%;
                 }
             }
-            img:hover {
+            .whast:hover {
                 transform: scale(1.2);
             }
             h3,
@@ -34,6 +34,52 @@ body {
             p {
                 font-size: 27px;
                 margin: 0;
+            }
+            .slide {
+                padding-left: 17%;
+                padding-right: 17%;
+                .galeria {
+                    height: 700px;
+                    @include breakpoint(phone) {
+                        height: 300px;
+                    }
+                    img {
+                        margin-top: 116px;
+                        @include breakpoint(phone) {
+                            height: 200px;
+                        }
+                    }
+                }
+                .carousel-control-prev {
+                    top: 124px;
+                    @include breakpoint(phone) {
+                        top: 124px;
+                        left: 2%;
+                    }
+                    @include breakpoint(tablet) {
+                        left: 3%;
+                    }
+                    @include breakpoint(desktop) {
+                        left: 9%;
+                    }
+                }
+                .carousel-control-next {
+                    top: 124px;
+                    @include breakpoint(phone) {
+                        top: 124px;
+                        right: 2%;
+                    }
+                    @include breakpoint(tablet) {
+                        right: 3%;
+                    }
+                    @include breakpoint(desktop) {
+                        right: 9%;
+                    }
+                }
+                span {
+                    font-size: 72px;
+                    color: #000000;
+                }
             }
         }
     }

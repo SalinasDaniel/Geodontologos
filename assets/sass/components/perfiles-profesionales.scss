@@ -34,7 +34,7 @@ body {
                         margin-left: 30%;
                     }
                     @include breakpoint(desktop) {
-                        margin-left: 19%;
+                        margin-left: 15%;
                     }
                     @media screen and (min-width: 1900px) {
                         margin-left: 5%;
@@ -43,8 +43,10 @@ body {
                         color: #FFFFFF;
                         margin-top: -12px;
                         strong {
+                            margin-left: 11%;
                             @include breakpoint(desktop) {
                                 font-size: 35px;
+                                margin-left: 15%;
                             }
                         }
                         @include breakpoint(phone) {
@@ -56,9 +58,6 @@ body {
                         }
                         @include breakpoint(desktop) {
                             font-size: 19px;
-                        }
-                        strong {
-                            margin-left: 11%;
                         }
                     }
                 }
