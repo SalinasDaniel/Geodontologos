@@ -12,12 +12,15 @@ body {
                 .img {
                     text-align: right;
                     @include breakpoint(phone) {
-                        text-align: center;
+                        text-align: left;
                     }
                     img {
                         margin-top: 31px;
                         @include breakpoint(phone) {
-                            display: none;
+                            width: 59%;
+                            position: absolute;
+                            top: 196px;
+                            left: 8%;
                         }
                         @include breakpoint(tablet) {
                             width: 82%;
@@ -44,7 +47,8 @@ body {
                 h1 {
                     @include breakpoint(phone) {
                         font-size: 50px;
-                        margin-top: 165px;
+                        margin-top: 53px;
+                        margin-bottom: 240px;
                     }
                     @include breakpoint(tablet) {
                         font-size: 41px;
@@ -75,6 +79,7 @@ body {
                     @include breakpoint(phone) {
                         font-size: 17px;
                         width: 90%;
+                        margin-bottom: 37px;
                     }
                     @include breakpoint(tablet) {
                         font-size: 26px;
